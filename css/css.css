@@ -1,0 +1,188 @@
+body{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	margin: 1%;
+	color: #00695C;
+	font-family: Trebuchet MS;
+}
+.menu{
+	background-color: white;
+	height: 20%;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding: 0px;
+	margin:0px;
+	border:0px;
+}
+
+.contenedor{
+	background-color: #e7898a;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.contenido {
+	float: left;
+	background-color: #e7898a;
+	height: 100px;
+	width: 20%;
+	text-align: center;
+	position: relative;
+}
+
+.contenido a {
+	font: 150% sans-serif;
+	color: white;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	top: 30%;
+	position: relative;
+	
+}
+
+.contenido:HOVER {
+	background-color: #F3E5F5;
+}
+
+.redes_sociales {
+ height: 20%;
+}
+
+
+.footer {
+	margin-top: 15%;
+	position: relative;
+	background: #9E9E9E;
+	width: 100%;
+	height: 200px;
+}
+
+.slider {
+	height: 400px;
+	background-color: #B2DFDB;
+}
+
+.slider img {
+	height: 100%;
+	width: 100%;
+	
+}
+
+.slider ul {
+	text-decoration: none;
+	text-align: center;
+}
+
+.unslider-arrow {
+	display: none;
+}
+.unslider-nav {
+	display: none;
+}
+
+
+.banner {
+	font: 150% sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.banner .novedades  {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	background-color: #00838F;
+	float: left;
+	border-top-style: solid;
+    border-top-color: #e7898a;
+	border-bottom-style: solid;
+    border-bottom-color: #e7898a;
+	
+}
+.logo {
+	position: relative;
+	float: left;
+	height: 100px;
+	width: 20%;
+	text-align: center;
+}
+
+.logo img {
+	position: relative;
+	height: 100px;
+}
+.logo a {
+	top: 0px;
+}
+
+.popup-gallery {
+	text-align: center;
+	margin-top: 5%;
+	position: relative;
+	height: 100%;
+	padding: 10px;
+}
+
+.popup-gallery img {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin:20px;
+	border-style: solid;
+    border-color: #e7898a;
+}
+
+.popup-gallery img:hover {
+	opacity: 0.5;
+}
+
+/*Regulación slider según resolución de la pantalla */
+
+@media (min-width: 800px){
+	.slider img{
+		margin: -100px;
+	}
+}
+
+@media (min-width: 1000px){
+	.slider img{
+		margin: -150px;
+	}
+}
+
+@media (min-width: 1200px){
+	.slider img{
+		margin: -100px;
+	}
+	.slider {
+		height: 600px;
+	}
+}
+
+@media (min-width: 1400px){
+	.slider img{
+		margin: -100px;
+	}
+	.slider {
+		height: 600px;
+	}
+}
