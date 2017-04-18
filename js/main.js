@@ -1,9 +1,0 @@
-$(document).ready(function(){
-	$('.slider').unslider({
-		500,
-		3000,
-		function(){},
-		true,
-		true
-	});
-});
